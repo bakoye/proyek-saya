@@ -1,0 +1,44 @@
+<?php 
+echo "1.<br>";
+for ($i=5; $i >= 1 ; $i--) { 
+    for ($a=5; $a >= $i ;$a--){
+        echo "$a";
+    }echo "<br>";
+}
+echo "<br>";
+echo "2.<br>";
+$favcolor = "lala";
+
+switch ($favcolor) {
+    case "1":
+        echo "Senin";
+        break;
+    case "2":
+        echo "selasa";
+        break;
+    case "3":
+        echo "rabu";
+        break;
+    case "4":
+        echo "kamis";
+        break;
+    case "5":
+        echo "jum'at";
+        break;
+    case "6":
+        echo "sabtu";
+        break;
+    case "7":
+        echo "minggu";
+        break;
+    default:
+        echo "masukkan yang anda input bukan hari senin, selasa, rabu, kamis, dst!";
+}
+echo "<br>";
+echo "3.<br>";
+for ($i=1; $i <= 5 ; $i++) { 
+    for ($a=1; $a <= 5 ;$a++){
+        echo "$i";
+    }echo "<br>";
+}
+ ?>
